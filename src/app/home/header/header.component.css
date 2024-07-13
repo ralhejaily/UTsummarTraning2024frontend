@@ -1,0 +1,54 @@
+
+.nav{
+  background: #425260;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+
+
+
+}
+.head-user-avatar-container {
+
+  margin-right: 20px;
+
+}
+.head-user-avatar {
+
+
+}
+.user-avatar {
+  display: flex;
+  margin-bottom: -4px;
+  width: 100px;
+  border-radius: 50px;
+  text-align: right;
+
+
+
+
+}
+
+.head-user-name{
+  display: flex;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 900;
+  text-align: right;
+
+
+
+}
+.logo{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+}
+.left{
+  margin-right: auto;
+
+
+
+
+}
+

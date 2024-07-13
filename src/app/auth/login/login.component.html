@@ -1,0 +1,115 @@
+<!--<head>-->
+<!--  <meta charset="UTF-8">-->
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1">-->
+<!--  <meta name="author" content="Yinka Enoch Adedokun">-->
+<!--  <title>Login Page</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--&lt;!&ndash; Main Content &ndash;&gt;-->
+<!--<div class="container-fluid">-->
+<!--  <div class="row main-content bg-success text-center">-->
+<!--    <div class="col-md-4 text-center company__info">-->
+<!--      <img src="/logo.png" style=" height: 200px; width: 200px;" >-->
+<!--    </div>-->
+<!--    <div class="col-md-8 col-xs-12 col-sm-12 login_form ">-->
+<!--      <div class="container-fluid">-->
+<!--        <div class="row">-->
+<!--          <h2>Log In</h2>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--&lt;!&ndash;          <form control="" class="form-group">&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;              <input type="text" name="username" id="username" class="form__input" placeholder="Username">&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;              &lt;!&ndash; <span class="fa fa-lock"></span> &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;              <input type="password" name="password" id="password" class="form__input" placeholder="Password">&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;              <input type="checkbox" name="remember_me" id="remember_me" class="">&ndash;&gt;-->
+<!--&lt;!&ndash;              <label for="remember_me">Remember Me!</label>&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;            <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;              <input type="submit" value="Submit" class="btn">&ndash;&gt;-->
+<!--&lt;!&ndash;            </div>&ndash;&gt;-->
+<!--&lt;!&ndash;          </form>&ndash;&gt;-->
+<!--              <form [formGroup]= "loginForm" (submit)= "onSubmit()">-->
+
+<!--                <mat-form-field appearance="outline">-->
+<!--                  <mat-label>اسم المستخدم</mat-label>-->
+<!--                  <input matInput type="text" class="text-number" formControlName="username" autocomplete="off">-->
+<!--                  <mat-icon matSuffix >-->
+<!--                    <fa-icon [icon]="faUser"></fa-icon>-->
+<!--                  </mat-icon>-->
+<!--                  &lt;!&ndash;               <mat-hint>&ndash;&gt;-->
+<!--                  &lt;!&ndash;                   <sup>*</sup>&ndash;&gt;-->
+<!--                  &lt;!&ndash;                   ادخل الرقم الوظفي&ndash;&gt;-->
+<!--                  &lt;!&ndash;               </mat-hint>&ndash;&gt;-->
+<!--                </mat-form-field>-->
+
+<!--                <mat-form-field appearance="outline">-->
+<!--                  <mat-label>كلمة المرور</mat-label>-->
+<!--                  <input matInput type="password" class="text-number" formControlName="password" autocomplete="off">-->
+<!--                  <mat-icon matSuffix>-->
+<!--                    <fa-icon [icon]= "faLock"></fa-icon>-->
+<!--                  </mat-icon>-->
+<!--                  &lt;!&ndash;               <mat-hint>&ndash;&gt;-->
+<!--                  &lt;!&ndash;                   <sup>*</sup>&ndash;&gt;-->
+<!--                  &lt;!&ndash;                   ادخل الرقم السري للدخول الموحد&ndash;&gt;-->
+<!--                  &lt;!&ndash;               </mat-hint>&ndash;&gt;-->
+<!--                </mat-form-field>-->
+<!--                &lt;!&ndash; &lt;!&ndash;  &ndash;&gt;-->
+<!--                &lt;!&ndash; <span class="link" href="./././reset-password" >Forget Password ?</span> &ndash;&gt;-->
+<!--          &lt;!&ndash;      <a href="./././reset-password" class="text-blue-50 fw-bold">  Forget Password  </a>&ndash;&gt;-->
+
+<!--                &lt;!&ndash; &ndash;&gt; &ndash;&gt;-->
+<!--                <br>-->
+<!--                <br>-->
+<!--                <br>-->
+<!--                <button mat-flat-button color="primary" class="login-button" >تسجيل دخول</button>-->
+<!--                &lt;!&ndash; &lt;!&ndash; routerLink="../utar" &ndash;&gt; &ndash;&gt;-->
+<!--              </form>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->
+<!--&lt;!&ndash; Footer &ndash;&gt;-->
+<!--</body>-->
+<br>
+<mat-card>
+  <mat-card-content>
+
+    <div class="header">
+      <img src="/logo.png" style=" height: 220px; width: 220px;" >
+    </div>
+
+    <form [formGroup]= "loginForm" (submit)= "onSubmit()">
+      <mat-form-field appearance="outline">
+        <mat-label >اسم المستخدم</mat-label>
+        <input matInput type="text" class="text-number" formControlName="username" autocomplete="off">
+        <mat-icon matSuffix >
+          <fa-icon [icon]="faUser"></fa-icon>
+        </mat-icon>
+      </mat-form-field>
+      <mat-form-field appearance="outline">
+        <mat-label>كلمة المرور</mat-label>
+        <input matInput type="password" class="text-number" formControlName="password" autocomplete="off">
+        <mat-icon matSuffix>
+          <fa-icon [icon]= "faLock"></fa-icon>
+        </mat-icon>
+      </mat-form-field>
+      <!-- &lt;!&ndash;  -->
+      <!-- <span class="link" href="./././reset-password" >Forget Password ?</span> -->
+<!--      <a href="./././reset-password" class="text-blue-50 fw-bold">  Forget Password  </a>-->
+
+      <!-- &ndash;&gt; -->
+      <br>
+      <br>
+      <button mat-flat-button color="primary" class="login-button" >تسجيل دخول</button>
+      <!-- &lt;!&ndash; routerLink="../utar" &ndash;&gt; -->
+    </form>
+  </mat-card-content>
+</mat-card>
