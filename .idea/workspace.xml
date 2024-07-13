@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e7c43fd-2258-4124-b767-b6341927d912" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docs/3rdpartylicenses.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/Page not found at :.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/avatar.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/chunk-NR3FJKBA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/chunk-Q563TO53.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/main-FV52UR3V.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/polyfills-6EAL64PA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/browser/styles-TOCYQRUH.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1720890190948</updated>
       <workItem from="1720890192239" duration="1855000" />
-      <workItem from="1720892666358" duration="114000" />
+      <workItem from="1720892666358" duration="422000" />
     </task>
     <servers />
   </component>
